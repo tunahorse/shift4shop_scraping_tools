@@ -3,10 +3,12 @@
 ## Most of the documentaion is outdated, and I haven't been able to find any clean exaamples. Hoping this helps someone. 
 
 
-## Products is working for now. Hoping to support more in the future. Make a pull request or raise an issue if you need help. 
+## Products and Customers scripts are working for now. Hoping to support more in the future. Make a pull request or raise an issue if you need help. 
 
 ## You need api keys and tokens. You can set those up here. https://devportal.3dcart.com
 
 ## products.py 
 This saves the first 100 raw info as a json file. You can adjust or filter as needed by the URL.
 
+## customers.py
+This saves all your customer's info as a json file. You will need pagination if you are extending 1000+ 
